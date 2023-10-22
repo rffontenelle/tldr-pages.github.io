@@ -168,6 +168,19 @@ iframe#twitter-widget-0 {
   animation: octocat-wave 560ms ease-in-out;
 }
 
+#iframe-content {
+  display: none;
+}
+
+noscript {
+  display: block;
+}
+
+#enable_js {
+  background-color: #ff00000a;
+  padding: 0.5rem;
+}
+
 @keyframes octocat-wave {
   0%,
   100% {
